@@ -2,7 +2,7 @@ package com.sistemaacademico;
 
 import java.util.stream.Collectors;
 
-class RelatorioCA {
+public class RelatorioCA {
     public static void imprimirInformacoes(ControleAcademico sistema) {
         for (Professor professor : sistema.getProfessores()) {
             System.out.println("Disciplinas ministradas por " + professor.getNome() + ":");

@@ -29,11 +29,12 @@ public class Aluno {
         return nome;
     }
     
-    public void adicionarDisciplina(Disciplina disciplina) {
+    public String adicionarDisciplina(Disciplina disciplina) {
         if (disciplina == null) {
             throw new NullPointerException("Erro: Disciplina inválida (nula).");
         }
         disciplinas.add(disciplina);
+        return "Disciplina Adicionada";
     }
     
     public List<Disciplina> getDisciplinas() {

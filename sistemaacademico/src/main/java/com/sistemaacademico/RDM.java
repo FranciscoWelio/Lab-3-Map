@@ -1,7 +1,6 @@
 package com.sistemaacademico;
 
-
-class RDM {
+public class RDM {
     private Aluno aluno;
     private Disciplina disciplina;
 

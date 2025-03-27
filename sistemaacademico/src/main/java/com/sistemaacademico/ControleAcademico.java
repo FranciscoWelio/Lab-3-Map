@@ -2,7 +2,7 @@ package com.sistemaacademico;
 import java.util.*;
 
 // Classe responsável por gerenciar o sistema acadêmico
-class ControleAcademico {
+public class ControleAcademico {
     private List<Professor> professores;
     private List<Aluno> alunos;
     private List<Disciplina> disciplinas;

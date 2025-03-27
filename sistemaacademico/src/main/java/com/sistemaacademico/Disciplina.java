@@ -38,11 +38,12 @@ public class Disciplina {
         return professor;
     }
     
-    public void adicionarAluno(Aluno aluno) {
+    public String adicionarAluno(Aluno aluno) {
         if (aluno == null) {
             throw new NullPointerException("O aluno não pode ser nulo.");
         }
         alunos.add(aluno);
+        return "Aluno Adicionado";
     }
     
     public List<Aluno> getAlunos() {
